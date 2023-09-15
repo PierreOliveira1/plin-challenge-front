@@ -11,7 +11,6 @@ function InputComponent(props: Props, ref: ForwardedRef<HTMLInputElement>) {
         ref={ref}
         type="text"
         {...props}
-        placeholder="Cidade"
         className={`border-none outline-none p-2 rounded text-black ${props.className}`}
       />
       {props.error && (
